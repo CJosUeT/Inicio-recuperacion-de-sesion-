@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Inicio de Sesión</h2>
+
+        <input id="loginCorreo" type="email" placeholder="Correo">
+        <input id="loginPassword" type="password" placeholder="Contraseña">
+
+        <div class="show-pass">
+            <input type="checkbox" onclick="togglePassword('loginPassword')">
+            <span>Mostrar contraseña</span>
+        </div>
+
+
+        <button onclick="iniciarSesion()">Ingresar</button>
+
+        <a href="olvcon.html">¿Olvidó su contraseña?</a>
+    </div>
+</body>
+
+</html>

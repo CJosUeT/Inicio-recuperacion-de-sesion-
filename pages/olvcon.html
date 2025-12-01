@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar Contraseña</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Recuperar Contraseña</h2>
+
+        <input id="recCorreo" type="email" placeholder="Correo registrado">
+        <input id="recNueva" type="password" placeholder="Nueva contraseña">
+
+        <div class="show-pass">
+            <input type="checkbox" onclick="togglePassword('recNueva')">
+            <span>Mostrar contraseña</span>
+        </div>
+
+
+        <button onclick="recuperar()">Actualizar</button>
+
+        <a href="inicio.html">Volver al inicio</a>
+    </div>
+</body>
+
+</html>
